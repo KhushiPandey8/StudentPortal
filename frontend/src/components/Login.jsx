@@ -1,11 +1,16 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from 'axios';
+import image from '../assets/Student.png';
 // import { Link } from "react-router-dom";
 function Login() {
   return (
     <>
-       <div className="min-h-screen flex items-center justify-center">
+      {/* <div className="w-[30%] h-screen">
+        <img src={image} alt="" />
+      </div> */}
+      {/* <div className="w-[70%] h-screen "> */}
+      <div className="min-h-screen flex items-center justify-center">
       <div className="w-full max-w-md p-6 rounded-lg shadow-md bg-white bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-100">
         <h1 className="text-3xl text-black font-bold text-center mb-6 font-mono">
           Login
@@ -50,6 +55,8 @@ function Login() {
         </form>
       </div>
     </div>
+      {/* </div> */}
+       
     </>
   );
 }
