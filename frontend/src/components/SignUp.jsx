@@ -16,7 +16,6 @@ function SignUp() {
               placeholder="Enter Name"
             />
           </div>
-          {/* Username Input */}
           <div>
             <label className="label p-2">
               <span className="text-base label-text text-black font-mono">Username</span>
@@ -27,7 +26,6 @@ function SignUp() {
               placeholder="Enter Username"
             />
           </div>
-          {/* Password and Confirm Password Inputs */}
           <div>
             <label className="label p-2">
               <span className="text-base label-text text-black font-mono">Password</span>
@@ -38,12 +36,9 @@ function SignUp() {
               placeholder="Enter Password"
             />
           </div>
-         
-          {/* Already have an account? */}
           <p className="text-center my-2 text-black font-mono ">
             Already have an account? <Link to="/login" className="text-blue-600 hover:text-blue-400 ">login</Link>
           </p>
-          {/* Submit Button */}
           <button className="btn btn-primary w-full mt-4 text-lg font-mono" type="submit">Sign up</button>
         </form>
       </div>
